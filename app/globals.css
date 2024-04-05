@@ -59,17 +59,6 @@ h4{
   }  
 }
 
-.card {
-  height: auto;
-  width: 100%;
-  padding: 1rem;
-  text-align:center;
-  justify-content: center;
-  border-radius: 1rem;
-  background: #edf2f7 !important;
-  border: 2px dashed #cbd5e0 !important;
-}
-
 .btn {
   @apply font-bold py-2 px-4 rounded;
 }
@@ -99,6 +88,16 @@ h4{
   @apply bg-red-700;
 }
 
+.card {
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  text-align:center;
+  border-radius: 1rem;
+  background: #edf2f7 !important;
+  border: 1px dashed #cbd5e0 !important;
+  position: relative;
+}
 
 .card .info {
   @apply mt-1 text-xs;
@@ -112,6 +111,7 @@ h4{
 .card .form-error-msg{
   @apply text-red-600 text-xs mb-2
 }
+
 
 
 /****customize scrollbar **************/

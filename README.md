@@ -1,4 +1,4 @@
-This is a simple POST API call example with real world scenario. When we want to add data items to the DB through web applications, we send POST requests from the frontend that targets the concerned backend API.
+This is a simple POST API call example with real world scenario. When we want to add data items to the DB through web applications, we send POST requests from the frontend that target the concerned backend API.
 
 ## Functionality
 
